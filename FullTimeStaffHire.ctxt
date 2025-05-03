@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=FullTimeStaffHire
+comment0.text=\r\n\ Class\:\ FullTimeStaffHire\r\n\r\n\ This\ class\ represents\ a\ full-time\ staff\ member.\r\n\ It\ extends\ the\ base\ class\ 'Staff_hire'\ and\ includes\ additional\r\n\ attributes\ such\ as\ salary\ and\ weekly\ working\ hours.\r\n
+comment1.params=vacancyNumber\ Designation\ jobType\ staffName\ joiningDate\ qualification\ appointedBy\ Joined\ salary\ weeklyFractionalHours
+comment1.target=FullTimeStaffHire(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ double,\ int)
+comment1.text=\r\n\ Constructor\:\ FullTimeStaffHire\r\n\ \r\n\ initialize\ all\ the\ attributes\ of\ a\ full\ time\ staff\r\n
+comment2.params=
+comment2.target=double\ getSalary()
+comment2.text=\r\n\ getter\ method\ for\ salary\ and\ weekly\ fractional\ hours\r\n\ \r\n\ Return\ current\ salary\ and\ weekly\ Fractional\ hours\r\n
+comment3.params=
+comment3.target=int\ getWorkingHours()
+comment4.params=salary
+comment4.target=void\ setSalary(double)
+comment4.text=\r\n\ Setter\ method\ to\ update\ salary\ and\ weekly\ fractional\ hour\r\n\ \r\n\ Check\ if\ staff\ has\ joined\ and\ updated\ the\ new\ input\r\n\ Otherwise,\ display\ apporate\ message\r\n
+comment5.params=weeklyFractionalHours
+comment5.target=void\ setWorkingHours(int)
+comment6.params=
+comment6.target=void\ FullTimeStaff_details()
+comment6.text=\r\n\ print\ method\:\ FullTimeStaff_details\r\n\ \r\n\ Prints\ the\ complete\ details\ of\ the\ full-time\ staff\ member,\r\n\ including\ status,\ general\ staff\ info,\ salary,\ and\ working\ hours.\r\n
+numComments=7
